@@ -110,7 +110,7 @@ def play(word, category):
                     guessed = True
         elif len(guess) == len(word) and guess.isalpha():
             if guess in guessed_words:
-                print("calm down dude you already guessed this word please leave me alone i beg you please im tired im just stupid code why are you doing this to me? never say " +  guess + " again")
+                print("calm down dude you already guessed this word wrong please leave me alone i beg you please im tired im just stupid code why are you doing this to me? never say " + guess + " again")
             elif guess != word:
                 print(guess, "your mom.")
                 tries -= 1

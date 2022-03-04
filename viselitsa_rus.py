@@ -1,6 +1,6 @@
 import random
 categories = ["природа", "еда", "вокруг нас", "программирование", "игры"]
-nature_list_nature = [
+word_list_nature = [
     "комар",
     "дерево",
     "насекомое",
